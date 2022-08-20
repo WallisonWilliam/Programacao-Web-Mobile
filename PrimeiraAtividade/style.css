@@ -1,0 +1,43 @@
+body{
+    background:rgb(32, 32, 32);
+}
+
+.titulo-centralizado{
+    text-align:center;
+    font-weight:bold;
+    text-transform:uppercase;   
+    color:white;
+}
+
+.imagem-redonda {
+    background-color: #aaaaaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.imagem-redonda img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.videoaudio{
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    transition: background-color 300ms;
+}
+
+.texto-centralizado{
+    color:rgb(218, 218, 218);
+    text-align:center;
+    text-decoration:none;
+}
+
