@@ -3,5 +3,6 @@
 <p>Aqui vou está postando todas atividades e projetos desenvolvidos ao decorrer da cadeira de Programação Web Mobile do 5º período.</p>
 
 <h2 align="center">Tecnologias utilizadas até o momento</h3>
+
 - HTML
 - CSS
