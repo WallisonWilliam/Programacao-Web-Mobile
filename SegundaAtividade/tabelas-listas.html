@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabelas e listas</title>  
+        <style>
+        table, td, th{
+            border:1px  solid black;
+            border-collapse: collapse;
+        }
+        </style>  
+    </head>
+    
+    <body>
+        <h1>Resultados do 1º Bimestre</h1>
+        <table>
+            <tr>
+                <th colspan="4">Resultados</th>
+            </tr>
+            <tr>
+                <th>Aluno</th>
+                <th>Situação</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+            <tr>
+                <td>Alan</td>   
+                <td>Matriculado</td>
+                <td>9,0</td>
+                <td>8,0</td>
+            </tr>
+            <tr>
+                <td>Bruna</td>   
+                <td>Matriculado</td>
+                <td>8,5</td>
+                <td>9,5</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>   
+                <td colspan="3">Trancado</td>
+            </tr>
+        </table>
+       
+        <h1>Resultados do 2º Bimestre</h1>
+        <table>
+            <tr>
+                <th colspan="6">Resultados</th>
+            </tr>
+            <tr>
+                <th colspan="2"></th>
+                <th colspan="2">Português</th>
+                <th colspan="2">Matemática</th>
+            </tr>
+            <tr>
+                <th>Situação</th>
+                <th>Aluno</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Matriculado</td>
+                <td>Alan</td>
+                <td>9,0</td>
+                <td>8,0</td>
+                <td>9,5</td>
+                <td>8,5</td>
+            </tr>
+            <tr>
+                <td>Bruna</td>
+                <td>8,5</td>
+                <td>9,5</td>
+                <td>8,0</td>
+                <td>9,0</td>
+            </tr>
+            <tr>
+                <td>Trancado</td>
+                <td colspan="5">Carlos</td>
+            </tr>
+        </table>
+            <ol>
+                <li>Plantas:</li>
+                <ol type="a">
+                    <li>Palma;</li>
+                    <li>Comigo-ninguém-pode;</li>
+                </ol>
+                <li>Animais:</li>
+                <ol type="i">
+                    <li>Curió;</li>
+                    <li>Sabiá; </li>
+                    <li>Macaco-prego.</li>
+                </ol>
+            </ol>
+    </body>
+</html>
