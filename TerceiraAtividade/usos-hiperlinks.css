@@ -1,0 +1,11 @@
+.paragrafo{
+    font-family:'Arial';
+    text-decoration:underline;
+}
+
+a{
+    font-weight:bold;
+    font-family:'Times New Roman';
+    text-decoration:none;
+}
+
